@@ -15,30 +15,29 @@
 				>
 					<p>20-02</p>
 					<div class="w-20">
-						<div role="hidden" class="mt-4 border-t-4  border-white">
+						<div class="mt-4 border-t-4  border-white">
 							<span class="block w-4 mx-auto mt-4" />
 						</div>
 					</div>
 				</div>
-				<video class="w-full h-full object-cover" autoplay loop src="/video/Lines-4760.mp4" />
+				<video class="w-full h-full object-cover" autoplay loop src="/video/Lines-4760.mp4">
+					<track kind="captions" />
+				</video>
 			</div>
 
 			<!-- Head Login 1 -->
 			<div
 				hidden
-				role="hidden"
 				class="fixed inset-0 w-6/12 ml-auto bg-white bg-opacity-70 backdrop-blur-xl lg:block"
 			/>
 			<div class="relative h-full ml-auto lg:w-6/12">
 				<div class="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
 					<div class="space-y-4">
-						<a href="">
-							<img src="bigCat.jpeg" class="w-40" alt="logo-top" />
-						</a>
+						<img src="bigCat.jpeg" class="w-40" alt="logo-top" />
 						<p class="text-5xl text-black">Sign Up</p>
 					</div>
 					<div class="w-20">
-						<div role="hidden" class="mt-4 border-t-4  border-black">
+						<div class="mt-4 border-t-4  border-black">
 							<span class="block w-4 mx-auto mt-4" />
 						</div>
 					</div>
