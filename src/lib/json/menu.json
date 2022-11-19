@@ -1,5 +1,4 @@
 {
-    "one" : [
         {
             "name" : "ข้าวกะเพราหมูสับ",
             "price" : "50",
@@ -107,9 +106,8 @@
             "price" : "60",
             "photo" : "./ข้าวแกงกะหรี่ไก่ทอด.jpg",
             "type" : "Main dish"
-        }
-    ],
-    "two" : [
+        },
+
         {
             "name" : "คะน้าหมูกรอบ",
             "price" : "70",
@@ -119,256 +117,304 @@
         {
             "name" : "บล็อกโคลี่ผัดกุ้ง",
             "price" : "80",
-            "photo" : "./บล็อกโคลี่ผัดกุ้ง.jpg"
+            "photo" : "./บล็อกโคลี่ผัดกุ้ง.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ปลาหมึกผัดไข่เค็ม",
             "price" : "75",
-            "photo" : "./ปลาหมึกผัดไข่เค็ม.jpg"
+            "photo" : "./ปลาหมึกผัดไข่เค็ม.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไก่ผัดเม็ดมะม่วง",
             "price" : "85",
-            "photo" : "./ไก่ผัดเม็ดมะม่วง.jpg"
+            "photo" : "./ไก่ผัดเม็ดมะม่วง.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ผัดผักบุ้งไฟแดง",
             "price" : "70",
-            "photo" : "./ผัดผักบุ้งไฟแดง.jpg"
+            "photo" : "./ผัดผักบุ้งไฟแดง.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "หมูกรอบผัดพริกเกลือ",
             "price" : "80",
-            "photo" : "./หมูกรอบผัดพริกเกลือ.jpg"
+            "photo" : "./หมูกรอบผัดพริกเกลือ.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ต้มยำกุ้ง",
             "price" : "90",
-            "photo" : "./ต้มยำกุ้ง.jpg"
+            "photo" : "./ต้มยำกุ้ง.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ต้มยำทะเลรวมมิตร",
             "price" : "110",
-            "photo" : "./ต้มยำทะเลรวมมิตร.jpg"
+            "photo" : "./ต้มยำทะเลรวมมิตร.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ปลากะพงทอดน้ำปลา",
             "price" : "300",
-            "photo" : "./ปลากะพงทอดน้ำปลา.jpg"
+            "photo" : "./ปลากะพงทอดน้ำปลา.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "สะตอผัดกุ้ง",
             "price" : "70",
-            "photo" : "./สะตอผัดกุ้ง.jpg"
+            "photo" : "./สะตอผัดกุ้ง.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ปลาสามรส",
             "price" : "70",
-            "photo" : "./ปลาสามรส.jpg"
+            "photo" : "./ปลาสามรส.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไก่ทอดเกลือ",
             "price" : "70",
-            "photo" : "./ไก่ทอดเกลือ.jpg"
+            "photo" : "./ไก่ทอดเกลือ.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไก่ทอดน้ำปลา",
             "price" : "70",
-            "photo" : "./ไก่ทอดน้ำปลา.jpg"
+            "photo" : "./ไก่ทอดน้ำปลา.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไก่ทอดกระเทียม",
             "price" : "70",
-            "photo" : "./ไก่ทอดกระเทียม.jpg"
+            "photo" : "./ไก่ทอดกระเทียม.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "หมูทอดกระเทียม",
             "price" : "75",
-            "photo" : "./หมูทอดกระเทียม.jpg"
+            "photo" : "./หมูทอดกระเทียม.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "เอ็นไก่ทอด",
             "price" : "65",
-            "photo" : "./เอ็นไก่ทอด.jpg"
+            "photo" : "./เอ็นไก่ทอด.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "กุ้งอบวุ้นเส้น",
             "price" : "270",
-            "photo" : "./กุ้งอบวุ้นเส้น.jpg"
+            "photo" : "./กุ้งอบวุ้นเส้น.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ปูผัดผงกะหรี่",
             "price" : "190",
-            "photo" : "./ปูผัดผงกะหรี่.jpg"
+            "photo" : "./ปูผัดผงกะหรี่.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ต้มจืดเต้าหู้หมูสับ",
             "price" : "70",
-            "photo" : "./ต้มจืดเต้าหู้หมูสับ.jpg"
+            "photo" : "./ต้มจืดเต้าหู้หมูสับ.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "หมึกนึ่งมะนาว",
             "price" : "180",
-            "photo" : "./หมึกนึ่งมะนาว.jpg"
+            "photo" : "./หมึกนึ่งมะนาว.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ทะเลผัดฉ่า",
             "price" : "120",
-            "photo" : "./ทะเลผัดฉ่า.jpg"
+            "photo" : "./ทะเลผัดฉ่า.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไข่ดาว",
             "price" : "15",
-            "photo" : "./ไข่ดาว.jpg"
+            "photo" : "./ไข่ดาว.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไข่เจียว",
             "price" : "20",
-            "photo" : "./ไข่เจียว.jpg"
+            "photo" : "./ไข่เจียว.jpg",
+            "type" : "Side dish"
         },
         {
             "name" : "ไข่เจียวหมูสับ",
             "price" : "30",
-            "photo" : "./ไข่เจียวหมูสับ.jpg"
-        }
-    ],
-    "three" : [
+            "photo" : "./ไข่เจียวหมูสับ.jpg",
+            "type" : "Side dish"
+        },
+
         {
             "name" : "เกี๊ยวซ่า",
             "price" : "60",
-            "photo" : "./เกี๊ยวซ่า.jpg"
+            "photo" : "./เกี๊ยวซ่า.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "ไส้กรอกแดงทอด",
             "price" : "30",
-            "photo" : "./ไส้กรอกแดงทอด.jpg"
+            "photo" : "./ไส้กรอกแดงทอด.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "ปอเปี๊ยะแฮมชีส",
             "price" : "45",
-            "photo" : "./ปอเปี๊ยะแฮมชีส.jpg"
+            "photo" : "./ปอเปี๊ยะแฮมชีส.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "เห็ดเข็มทองชุบแป้งทอด",
             "price" : "40",
-            "photo" : "./เห็ดเข็มทองชุบแป้งทอด.jpg"
+            "photo" : "./เห็ดเข็มทองชุบแป้งทอด.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "ชีสบอล",
             "price" : "55",
-            "photo" : "./ชีสบอล.jpg"
+            "photo" : "./ชีสบอล.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "เกี๊ยวทอด",
             "price" : "30",
-            "photo" : "./เกี๊ยวทอด.jpg"
+            "photo" : "./เกี๊ยวทอด.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "นักเก็ต",
             "price" : "35",
-            "photo" : "./นักเก็ต.jpg"
+            "photo" : "./นักเก็ต.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "ไก่คาราอาเกะ",
             "price" : "55",
-            "photo" : "./ไก่คาราอาเกะ.jpg"
+            "photo" : "./ไก่คาราอาเกะ.jpg",
+            "type" : "appetizer"
         },
         {
             "name" : "เฟรนช์ฟรายส์",
             "price" : "40",
-            "photo" : "./เฟรนช์ฟรายส์.jpg"
-        }
-    ],
-    "four" : [
+            "photo" : "./เฟรนช์ฟรายส์.jpg",
+            "type" : "appetizer"
+        },
+
         {
             "name" : "แอปเปิ้ลโซดา",
             "price" : "35",
-            "photo" : "./แอปเปิ้ลโซดา.jpg"
+            "photo" : "./แอปเปิ้ลโซดา.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "ลิ้นจี่โซดา",
             "price" : "35",
-            "photo" : "./ลิ้นจี่โซดา.jpg"
+            "photo" : "./ลิ้นจี่โซดา.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "สตรอเบอรี่โซดา",
             "price" : "35",
-            "photo" : "./สตรอเบอรี่โซดา.jpg"
+            "photo" : "./สตรอเบอรี่โซดา.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "องุ่นโซดา",
             "price" : "35",
-            "photo" : "./องุ่นโซดา.jpg"
+            "photo" : "./องุ่นโซดา.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "บลูฮาวายโซดา",
             "price" : "35",
-            "photo" : "./บลูฮาวายโซดา.jpg"
+            "photo" : "./บลูฮาวายโซดา.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "ชาดําเย็น",
             "price" : "30",
-            "photo" : "./ชาดําเย็น.jpg"
+            "photo" : "./ชาดําเย็น.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "ชามะนาว",
             "price" : "30",
-            "photo" : "./ชามะนาว.jpg"
+            "photo" : "./ชามะนาว.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "ชาเขียวเย็น",
             "price" : "35",
-            "photo" : "./ชาเขียวเย็น.jpg"
+            "photo" : "./ชาเขียวเย็น.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "กาแฟโบราณเย็น",
             "price" : "30",
-            "photo" : "./กาแฟโบราณเย็น.jpg"
+            "photo" : "./กาแฟโบราณเย็น.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "กาแฟโบราณร้อน",
             "price" : "25",
-            "photo" : "./กาแฟโบราณร้อน.jpg"
+            "photo" : "./กาแฟโบราณร้อน.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "โค้กขวด",
             "price" : "15",
-            "photo" : "./โค้กขวด.jpg"
+            "photo" : "./โค้กขวด.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "น้ำเปล่า",
             "price" : "10",
-            "photo" : "./น้ำเปล่า.jpg"
+            "photo" : "./น้ำเปล่า.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "บัวลอยไข่หวาน",
             "price" : "35",
-            "photo" : "./บัวลอยไข่หวาน.jpg"
+            "photo" : "./บัวลอยไข่หวาน.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "แพนเค้ก",
             "price" : "45",
-            "photo" : "./แพนเค้ก.jpg"
+            "photo" : "./แพนเค้ก.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "ดังโงะ",
             "price" : "45",
-            "photo" : "./ดังโงะ.jpg"
+            "photo" : "./ดังโงะ.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "สตรอเบอรี่ชีสเค้ก",
             "price" : "65",
-            "photo" : "./สตรอเบอรี่ชีสเค้ก.jpg"
+            "photo" : "./สตรอเบอรี่ชีสเค้ก.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "ช็อกโกแลตเค้ก",
             "price" : "60",
-            "photo" : "./ช็อกโกแลตเค้ก.jpg"
+            "photo" : "./ช็อกโกแลตเค้ก.jpg",
+            "type" : "dessert"
         },
         {
             "name" : "คุกกี้ช็อกโกแลตชิพ",
             "price" : "40",
-            "photo" : "./คุกกี้ช็อกโกแลตชิพ.jpg"
+            "photo" : "./คุกกี้ช็อกโกแลตชิพ.jpg",
+            "type" : "dessert"
         }
-    ]
+
 }
