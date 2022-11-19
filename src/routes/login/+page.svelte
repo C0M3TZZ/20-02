@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import Card from '$lib/components/card.svelte';
 
 	let show = false;
@@ -34,4 +34,4 @@
 {#each foods as food}
   <Card name={food.name} price={food.price} />
 {/each}
-
+ -->
