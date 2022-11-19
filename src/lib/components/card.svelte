@@ -9,7 +9,7 @@
 <div id="food-card" class="max-w-sm bg-white shadow-sm border border-gray-200 rounded-lg ">
 	<a href={link}>
 		<img
-			class="object-center rounded-t-lg h-72 w-full hover:opacity-60 transition duration-500"
+			class="object-cover rounded-t-lg h-72 w-full hover:opacity-60 transition duration-500"
 			src={img}
 			alt="food"
 		/>
