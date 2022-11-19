@@ -5,6 +5,7 @@
 		"price": 50,
 		"photo": "./ข้าวกะเพราหมูสับ.jpg",
 		"type": "Main dish",
+		"desc": "",
 		"options": [
 			{
 				"name": "ไข่ดาว",
