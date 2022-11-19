@@ -9,487 +9,885 @@
 		"options": [
 			{
 				"name": "ไข่ดาว",
-				"price": "5"
+				"price": 10
 			},
 			{
 				"name": "พิเศษ",
-				"price": "10"
+				"price": 15
 			}
 		]
 	},
 	{
 		"id": "2",
 		"name": "ข้าวกะเพราไก่",
-		"price": "50",
+		"price": 50,
 		"photo": "./ข้าวกะเพราไก่.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "3",
 		"name": "ข้าวกะเพราหมูกรอบ",
-		"price": "60",
+		"price": 60,
 		"photo": "./ข้าวกะเพราหมูกรอบ.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "4",
 		"name": "ข้าวผัดหมู",
-		"price": "55",
+		"price": 55,
 		"photo": "./ข้าวผัดหมู.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "5",
 		"name": "ข้าวผัดไก่",
-		"price": "55",
+		"price": 55,
 		"photo": "./ข้าวผัดไก่.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "6",
 		"name": "ข้าวผัดทะเล",
-		"price": "70",
+		"price": 70,
 		"photo": "./ข้าวผัดทะเล.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "7",
 		"name": "ข้าวหมูกรอบผัดพริกเกลือ",
-		"price": "60",
+		"price": 60,
 		"photo": "./ข้าวหมูกรอบผัดพริกเกลือ.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "8",
 		"name": "ข้าวหมูทอดกระเทียม",
-		"price": "50",
+		"price": 50,
 		"photo": "./ข้าวหมูทอดกระเทียม.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "9",
 		"name": "ข้าวไก่ทอดกระเทียม",
-		"price": "50",
+		"price": 50,
 		"photo": "./ข้าวไก่ทอดกระเทียม.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "10",
 		"name": "ข้าวหมูกรอบ",
-		"price": "55",
+		"price": 55,
 		"photo": "./ข้าวหมูกรอบ.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ต้ม",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "11",
 		"name": "ข้าวหมูแดง",
-		"price": "55",
+		"price": 55,
 		"photo": "./ข้าวหมูแดง.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ต้ม",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "12",
 		"name": "ข้าวหมูแดง+หมูกรอบ",
-		"price": "65",
+		"price": 65,
 		"photo": "./ข้าวหมูแดง+หมูกรอบ.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ต้ม",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "13",
 		"name": "ข้าวไข่เจียวหมูสับ",
-		"price": "45",
+		"price": 45,
 		"photo": "./ข้าวไข่เจียวหมูสับ.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ 2 ฟอง",
+				"price": 10
+			},
+			{
+				"name": "ไข่ 3 ฟอง",
+				"price": 20
+			}
+		]
 	},
 	{
 		"id": "14",
 		"name": "ข้าวไข่เจียว",
-		"price": "35",
+		"price": 35,
 		"photo": "./ข้าวไข่เจียว.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ 2 ฟอง",
+				"price": 10
+			},
+			{
+				"name": "ไข่ 3 ฟอง",
+				"price": 20
+			}
+		]
 	},
 	{
 		"id": "15",
 		"name": "ข้าวไข่ข้น",
-		"price": "35",
+		"price": 35,
 		"photo": "./ข้าวไข่ข้น.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ 2 ฟอง",
+				"price": 10
+			},
+			{
+				"name": "ไข่ 3 ฟอง",
+				"price": 20
+			}
+		]
 	},
 	{
 		"id": "16",
 		"name": "มาม่าผัดเบคอน",
-		"price": "45",
+		"price": 45,
 		"photo": "./มาม่าผัดเบคอน.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "ไข่ดาว",
+				"price": 10
+			},
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "17",
 		"name": "ข้าวแกงกะหรี่หมูทอด",
-		"price": "60",
+		"price": 60,
 		"photo": "./ข้าวแกงกะหรี่หมูทอด.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "18",
 		"name": "ข้าวแกงกะหรี่ไก่ทอด",
-		"price": "60",
+		"price": 60,
 		"photo": "./ข้าวแกงกะหรี่ไก่ทอด.jpg",
-		"type": "Main dish"
+		"type": "Main dish",
+        "options": [
+			{
+				"name": "พิเศษ",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "19",
 		"name": "คะน้าหมูกรอบ",
-		"price": "70",
+		"price": 70,
 		"photo": "./คะน้าหมูกรอบ.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "20",
 		"name": "บล็อกโคลี่ผัดกุ้ง",
-		"price": "80",
+		"price": 80,
 		"photo": "./บล็อกโคลี่ผัดกุ้ง.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "21",
 		"name": "ปลาหมึกผัดไข่เค็ม",
-		"price": "75",
+		"price": 75,
 		"photo": "./ปลาหมึกผัดไข่เค็ม.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "22",
 		"name": "ไก่ผัดเม็ดมะม่วง",
-		"price": "85",
+		"price": 85,
 		"photo": "./ไก่ผัดเม็ดมะม่วง.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "23",
 		"name": "ผัดผักบุ้งไฟแดง",
-		"price": "70",
+		"price": 70,
 		"photo": "./ผัดผักบุ้งไฟแดง.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "24",
 		"name": "หมูกรอบผัดพริกเกลือ",
-		"price": "80",
+		"price": 80,
 		"photo": "./หมูกรอบผัดพริกเกลือ.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "25",
 		"name": "ต้มยำกุ้ง",
-		"price": "90",
+		"price": 90,
 		"photo": "./ต้มยำกุ้ง.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "26",
 		"name": "ต้มยำทะเลรวมมิตร",
-		"price": "110",
+		"price": 110,
 		"photo": "./ต้มยำทะเลรวมมิตร.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "27",
 		"name": "ปลากะพงทอดน้ำปลา",
-		"price": "300",
+		"price": 300,
 		"photo": "./ปลากะพงทอดน้ำปลา.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "28",
 		"name": "สะตอผัดกุ้ง",
-		"price": "70",
+		"price": 70,
 		"photo": "./สะตอผัดกุ้ง.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "29",
 		"name": "ปลาสามรส",
-		"price": "70",
+		"price": 70,
 		"photo": "./ปลาสามรส.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "30",
 		"name": "ไก่ทอดเกลือ",
-		"price": "70",
+		"price": 70,
 		"photo": "./ไก่ทอดเกลือ.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "31",
 		"name": "ไก่ทอดน้ำปลา",
-		"price": "70",
+		"price": 70,
 		"photo": "./ไก่ทอดน้ำปลา.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "32",
 		"name": "ไก่ทอดกระเทียม",
-		"price": "70",
+		"price": 70,
 		"photo": "./ไก่ทอดกระเทียม.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "33",
 		"name": "หมูทอดกระเทียม",
-		"price": "75",
+		"price": 75,
 		"photo": "./หมูทอดกระเทียม.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "34",
 		"name": "เอ็นไก่ทอด",
-		"price": "65",
+		"price": 65,
 		"photo": "./เอ็นไก่ทอด.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "35",
 		"name": "กุ้งอบวุ้นเส้น",
-		"price": "270",
+		"price": 270,
 		"photo": "./กุ้งอบวุ้นเส้น.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "36",
 		"name": "ปูผัดผงกะหรี่",
-		"price": "190",
+		"price": 190,
 		"photo": "./ปูผัดผงกะหรี่.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "37",
 		"name": "ต้มจืดเต้าหู้หมูสับ",
-		"price": "70",
+		"price": 70,
 		"photo": "./ต้มจืดเต้าหู้หมูสับ.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "38",
 		"name": "หมึกนึ่งมะนาว",
-		"price": "180",
+		"price": 180,
 		"photo": "./หมึกนึ่งมะนาว.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "39",
 		"name": "ทะเลผัดฉ่า",
-		"price": "120",
+		"price": 120,
 		"photo": "./ทะเลผัดฉ่า.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "40",
 		"name": "ไข่ดาว",
-		"price": "15",
+		"price": 15,
 		"photo": "./ไข่ดาว.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "41",
 		"name": "ไข่เจียว",
-		"price": "20",
+		"price": 20,
 		"photo": "./ไข่เจียว.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "42",
 		"name": "ไข่เจียวหมูสับ",
-		"price": "30",
+		"price": 30,
 		"photo": "./ไข่เจียวหมูสับ.jpg",
 		"type": "Side dish"
 	},
 	{
 		"id": "43",
 		"name": "เกี๊ยวซ่า",
-		"price": "60",
+		"price": 60,
 		"photo": "./เกี๊ยวซ่า.jpg",
 		"type": "appetizer"
 	},
 	{
 		"id": "44",
 		"name": "ไส้กรอกแดงทอด",
-		"price": "30",
+		"price": 30,
 		"photo": "./ไส้กรอกแดงทอด.jpg",
 		"type": "appetizer"
 	},
 	{
 		"id": "45",
 		"name": "ปอเปี๊ยะแฮมชีส",
-		"price": "45",
+		"price": 45,
 		"photo": "./ปอเปี๊ยะแฮมชีส.jpg",
 		"type": "appetizer"
 	},
 	{
 		"id": "46",
 		"name": "เห็ดเข็มทองชุบแป้งทอด",
-		"price": "40",
+		"price": 40,
 		"photo": "./เห็ดเข็มทองชุบแป้งทอด.jpg",
 		"type": "appetizer"
 	},
 	{
 		"id": "47",
 		"name": "ชีสบอล",
-		"price": "55",
+		"price": 55,
 		"photo": "./ชีสบอล.jpg",
-		"type": "appetizer"
+		"type": "appetizer",
+        "options": [
+			{
+				"name": "ซอสบาร์บีคิว",
+				"price": 10
+			},
+			{
+				"name": "ชีสดิป",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "48",
 		"name": "เกี๊ยวทอด",
-		"price": "30",
+		"price": 30,
 		"photo": "./เกี๊ยวทอด.jpg",
-		"type": "appetizer"
+		"type": "appetizer",
+        "options": [
+			{
+				"name": "ซอสบาร์บีคิว",
+				"price": 10
+			},
+			{
+				"name": "ชีสดิป",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "49",
 		"name": "นักเก็ต",
-		"price": "35",
+		"price": 35,
 		"photo": "./นักเก็ต.jpg",
-		"type": "appetizer"
+		"type": "appetizer",
+        "options": [
+			{
+				"name": "ซอสบาร์บีคิว",
+				"price": 10
+			},
+			{
+				"name": "ชีสดิป",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "50",
 		"name": "ไก่คาราอาเกะ",
-		"price": "55",
+		"price": 55,
 		"photo": "./ไก่คาราอาเกะ.jpg",
 		"type": "appetizer"
 	},
 	{
 		"id": "51",
 		"name": "เฟรนช์ฟรายส์",
-		"price": "40",
+		"price": 40,
 		"photo": "./เฟรนช์ฟรายส์.jpg",
-		"type": "appetizer"
+		"type": "appetizer",
+        "options": [
+			{
+				"name": "ซอสบาร์บีคิว",
+				"price": 10
+			},
+			{
+				"name": "ชีสดิป",
+				"price": 15
+			}
+		]
 	},
 	{
 		"id": "52",
 		"name": "แอปเปิ้ลโซดา",
-		"price": "35",
+		"price": 35,
 		"photo": "./แอปเปิ้ลโซดา.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "ปั่น",
+				"price": 10
+			}
+		]
 	},
 	{
 		"id": "53",
 		"name": "ลิ้นจี่โซดา",
-		"price": "35",
+		"price": 35,
 		"photo": "./ลิ้นจี่โซดา.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "ปั่น",
+				"price": 10
+			}
+		]
 	},
 	{
 		"id": "54",
 		"name": "สตรอเบอรี่โซดา",
-		"price": "35",
+		"price": 35,
 		"photo": "./สตรอเบอรี่โซดา.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "ปั่น",
+				"price": 10
+			}
+		]
 	},
 	{
 		"id": "55",
 		"name": "องุ่นโซดา",
-		"price": "35",
+		"price": 35,
 		"photo": "./องุ่นโซดา.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "ปั่น",
+				"price": 10
+			}
+		]
 	},
 	{
 		"id": "56",
 		"name": "บลูฮาวายโซดา",
-		"price": "35",
+		"price": 35,
 		"photo": "./บลูฮาวายโซดา.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "ปั่น",
+				"price": 10
+			}
+		]
 	},
 	{
 		"id": "57",
 		"name": "ชาดําเย็น",
-		"price": "30",
+		"price": 30,
 		"photo": "./ชาดําเย็น.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "หวานนิดนึง",
+				"price": 0
+			},
+            {
+				"name": "หวานน้อย",
+				"price": 0
+			},
+            {
+				"name": "หวานกลางๆ",
+				"price": 0
+			},
+            {
+				"name": "หวานปกติ",
+				"price": 0
+			},
+            {
+				"name": "หวานมาก",
+				"price": 0
+			},
+            {
+				"name": "หวานตัดขา",
+				"price": 0
+			}
+		]
 	},
 	{
 		"id": "58",
 		"name": "ชามะนาว",
-		"price": "30",
+		"price": 30,
 		"photo": "./ชามะนาว.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+            {
+				"name": "ปั่น",
+				"price": 10
+			},
+			{
+				"name": "หวานนิดนึง",
+				"price": 0
+			},
+            {
+				"name": "หวานน้อย",
+				"price": 0
+			},
+            {
+				"name": "หวานกลางๆ",
+				"price": 0
+			},
+            {
+				"name": "หวานปกติ",
+				"price": 0
+			},
+            {
+				"name": "หวานมาก",
+				"price": 0
+			},
+            {
+				"name": "หวานตัดขา",
+				"price": 0
+			}
+		]
 	},
 	{
 		"id": "59",
 		"name": "ชาเขียวเย็น",
-		"price": "35",
+		"price": 35,
 		"photo": "./ชาเขียวเย็น.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+            {
+				"name": "ปั่น",
+				"price": 10
+			},
+			{
+				"name": "หวานนิดนึง",
+				"price": 0
+			},
+            {
+				"name": "หวานน้อย",
+				"price": 0
+			},
+            {
+				"name": "หวานกลางๆ",
+				"price": 0
+			},
+            {
+				"name": "หวานปกติ",
+				"price": 0
+			},
+            {
+				"name": "หวานมาก",
+				"price": 0
+			},
+            {
+				"name": "หวานตัดขา",
+				"price": 0
+			}
+		]
 	},
 	{
 		"id": "60",
 		"name": "กาแฟโบราณเย็น",
-		"price": "30",
+		"price": 30,
 		"photo": "./กาแฟโบราณเย็น.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+            {
+				"name": "ปั่น",
+				"price": 10
+			},
+			{
+				"name": "หวานนิดนึง",
+				"price": 0
+			},
+            {
+				"name": "หวานน้อย",
+				"price": 0
+			},
+            {
+				"name": "หวานกลางๆ",
+				"price": 0
+			},
+            {
+				"name": "หวานปกติ",
+				"price": 0
+			},
+            {
+				"name": "หวานมาก",
+				"price": 0
+			},
+            {
+				"name": "หวานตัดขา",
+				"price": 0
+			}
+		]
 	},
 	{
 		"id": "61",
 		"name": "กาแฟโบราณร้อน",
-		"price": "25",
+		"price": 25,
 		"photo": "./กาแฟโบราณร้อน.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+			{
+				"name": "หวานนิดนึง",
+				"price": 0
+			},
+            {
+				"name": "หวานน้อย",
+				"price": 0
+			},
+            {
+				"name": "หวานกลางๆ",
+				"price": 0
+			},
+            {
+				"name": "หวานปกติ",
+				"price": 0
+			},
+            {
+				"name": "หวานมาก",
+				"price": 0
+			},
+            {
+				"name": "หวานตัดขา",
+				"price": 0
+			}
+		]
 	},
 	{
 		"id": "62",
 		"name": "โค้กขวด",
-		"price": "15",
+		"price": 15,
 		"photo": "./โค้กขวด.jpg",
 		"type": "dessert"
 	},
 	{
 		"id": "63",
 		"name": "น้ำเปล่า",
-		"price": "10",
+		"price": 10,
 		"photo": "./น้ำเปล่า.jpg",
 		"type": "dessert"
 	},
 	{
 		"id": "64",
 		"name": "บัวลอยไข่หวาน",
-		"price": "35",
+		"price": 35,
 		"photo": "./บัวลอยไข่หวาน.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+            {
+				"name": "เพิ่มไข่ 1 ฟอง",
+				"price": 10
+			},
+            {
+				"name": "เพิ่มไข่ 2 ฟอง",
+				"price": 20
+			}
+		]
 	},
 	{
 		"id": "65",
 		"name": "แพนเค้ก",
-		"price": "45",
+		"price": 45,
 		"photo": "./แพนเค้ก.jpg",
-		"type": "dessert"
+		"type": "dessert",
+        "options": [
+            {
+				"name": "แยมสตรอว์เบอร์รี",
+				"price": 15
+			},
+            {
+				"name": "นูเทลล่า",
+				"price": 20
+			},
+            {
+				"name": "วิปครีม",
+				"price": 20
+			}
+		]
 	},
 	{
 		"id": "66",
 		"name": "ดังโงะ",
-		"price": "45",
+		"price": 45,
 		"photo": "./ดังโงะ.jpg",
 		"type": "dessert"
 	},
 	{
 		"id": "67",
 		"name": "สตรอเบอรี่ชีสเค้ก",
-		"price": "65",
+		"price": 65,
 		"photo": "./สตรอเบอรี่ชีสเค้ก.jpg",
 		"type": "dessert"
 	},
 	{
 		"id": "68",
 		"name": "ช็อกโกแลตเค้ก",
-		"price": "60",
+		"price": 60,
 		"photo": "./ช็อกโกแลตเค้ก.jpg",
 		"type": "dessert"
 	},
 	{
 		"id": "69",
 		"name": "คุกกี้ช็อกโกแลตชิพ",
-		"price": "40",
+		"price": 40,
 		"photo": "./คุกกี้ช็อกโกแลตชิพ.jpg",
 		"type": "dessert"
 	}
