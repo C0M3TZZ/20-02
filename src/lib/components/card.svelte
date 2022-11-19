@@ -6,7 +6,7 @@
 	export let link = '#';
 </script>
 
-<div id="food-card" class="max-w-sm bg-white shadow-sm border border-gray-200 rounded-lg ">
+<div class="max-w-sm font-Taviraj bg-white shadow-sm border border-gray-200 rounded-lg ">
 	<a href={link}>
 		<img
 			class="object-cover rounded-t-lg h-72 w-full hover:opacity-60 transition duration-500"
@@ -20,14 +20,3 @@
 	</a>
 </div>
 
-<!-- 
-  write this font style because haven't anyone tell answer me ;( 
-  but you can delete it when announce global font 
--->
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
-
-	#food-card {
-		font-family: 'Mitr', sans-serif;
-	}
-</style>
