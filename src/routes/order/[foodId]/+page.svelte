@@ -110,13 +110,13 @@
 						on:click={() => {
 							goto('/menu');
 						}}
-						class=" bg-[#3d3d3d] text-white w-full h-7 rounded-lg  hover:bg-[#272727] "
+						class=" bg-[#3d3d3d] text-white w-full flex justify-center items-center h-7 rounded-lg p-5 hover:bg-[#272727] "
 					>
 						ยกเลิก
 					</button>
 				{:else}
 					<button
-						class=" bg-[#3d3d3d] text-white w-full h-7 rounded-lg  hover:bg-[#272727] "
+						class=" bg-[#3d3d3d] text-white w-full flex justify-center items-center h-7 rounded-lg p-5 hover:bg-[#272727] "
 						on:click={() => {
 							if ($userLogin) {
 								let order = {
