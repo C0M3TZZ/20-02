@@ -39,7 +39,7 @@
 	<div class="relative h-full ml-auto lg:w-6/12">
 		<div class="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
 			<div class="space-y-4">
-				<img src="bigCat.jpeg" class="w-40" alt="logo-top" />
+				<img class="w-40"/>
 				<p class="text-5xl text-black">Sign In</p>
 			</div>
 			<div class="w-20">
@@ -78,7 +78,9 @@
 					<button
 						class="w-full px-6 py-3 mb-4 rounded-xl bg-neutral-900 transition hover:bg-slate-800  active:bg-slate-900 shadow-xl"
 						on:click={() => {
-							let userData = localStorage.getItem('userData') ? JSON.parse(localStorage.getItem('userData')) : [];
+							let userData = localStorage.getItem('userData')
+								? JSON.parse(localStorage.getItem('userData'))
+								: [];
 							if (userData.find((user) => user.email === email && user.password === password)) {
 								userLogin.set(email);
 								goto('/');

@@ -43,7 +43,7 @@
 	<div class="relative h-full ml-auto lg:w-6/12">
 		<div class="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
 			<div class="space-y-4">
-				<img src="bigCat.jpeg" class="w-40" alt="logo-top" />
+				<img class="w-40" />
 				<p class="text-5xl text-black">Sign Up</p>
 			</div>
 			<div class="w-20">
