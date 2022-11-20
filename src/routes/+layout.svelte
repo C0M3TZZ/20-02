@@ -47,7 +47,7 @@
 					goto('/');
 				}}
 			>
-				Log Out
+				Sign Out
 			</button>
 		{:else}
 			<button
