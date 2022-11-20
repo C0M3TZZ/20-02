@@ -53,7 +53,7 @@
 		{#if deliveryData.length == 0}
 			<div
 				transition:fly={{ y: 100, duration: 250, opacity: 0 }}
-				class="flex justify-center items-center w-3/4 h-10 bg-stone-800 text-white font-Kanit"
+				class="flex justify-center items-center w-3/4 h-10 bg-stone-800 text-white rounded-sm font-Kanit"
 			>
 				กรุณาเพิ่มที่อยู่ในการจัดส่ง
 			</div>
