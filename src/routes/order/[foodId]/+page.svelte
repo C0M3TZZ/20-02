@@ -45,7 +45,7 @@
 	$: totalprice = (price + options.reduce((acc, cur) => acc + cur.price, 0)) * count;
 </script>
 
-<div class="flex justify-center mb-10">
+<div class="flex justify-center mb-10 font-Kanit">
 	<div class="w-3/4">
 		<div class="relative">
 			<button
