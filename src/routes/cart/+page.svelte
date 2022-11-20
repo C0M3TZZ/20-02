@@ -229,7 +229,7 @@
 				localStorage.setItem($userLogin + 'deliType', deliveryWhen);
 				goto('/done');
 			}}
-			class="w-3/4 rounded-xl bg-black text-white py-3 mb-10 transition-all hover:bg-slate-800 active:bg-slate-600 font-Kanit"
+			class="w-3/4 rounded-xl bg-stone-800 text-white py-3 mb-10 transition-all hover:bg-stone-600 active:bg-stone-600 font-Kanit"
 			>ยืนยันการสั่งซื้อ</button
 		>
 	</div>
