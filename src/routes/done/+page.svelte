@@ -19,7 +19,7 @@
 		<h1 class="text-3xl p-10 font-Kanit">
 			{deliType == 'now'
 				? 'เรากำลังจัดเตรียมอาหารให้คุณ!'
-				: 'เราจะจัดส่งอาหารให้คุณตามเวลาที่คุณกำหนด!'}
+				: 'เราจะจัดส่งอาหารให้ตามเวลาที่คุณกำหนด!'}
 		</h1>
 		<button
 			on:click={() => {
@@ -27,7 +27,7 @@
 				localStorage.removeItem($userLogin + 'orders');
 				goto('/');
 			}}
-			class="w-3/4 bg-stone-800 text-3xl text-white rounded-lg p-2v font-Kanit">กลับหน้าแรก</button
+			class="w-2/4 h-20 bg-stone-800 text-3xl text-white rounded-lg p-2v font-Kanit">กลับหน้าแรก</button
 		>
 	</div>
 </div>
