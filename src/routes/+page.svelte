@@ -93,8 +93,8 @@
 	bind:clientHeight={eleData.height}
 	class="w-full h-[512px] flex flex-nowrap overflow-scroll snap-x snap-mandatory scroll-smooth no-scrollbar"
 >
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./cat1.jpg" alt="" />
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./cat2.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo1.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo2.jpg" alt="" />
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./cat3.jpg" alt="" />
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./cat4.jpg" alt="" />
 </div>
