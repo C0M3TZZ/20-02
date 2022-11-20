@@ -93,6 +93,10 @@
 							let userData = localStorage.getItem('userData')
 								? JSON.parse(localStorage.getItem('userData'))
 								: [];
+							if (formData.email == '') {
+								addNotification('กรุณากรอกอีเมล', 'danger', 3000);
+								return;
+							}
 							if (userData.find((user) => user.email === formData.email)) {
 								addNotification('Email ถูกใช้ไปแล้ว', 'danger', 3000);
 							} else {

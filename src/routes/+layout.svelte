@@ -22,7 +22,7 @@
 	}
 </script>
 
-<div class="fixed z-50 top-0 w-full flex flex-col justify-center items-center mt-2 gap-2">
+<div class="fixed z-50 top-0 w-full flex flex-col font-Taviraj justify-center items-center mt-2 gap-2">
 	{#each $nofitication as noti}
 		<div
 			transition:fly={{ y: -100, opacity: 0 }}
