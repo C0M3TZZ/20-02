@@ -96,7 +96,7 @@
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo1.jpg" alt="" />
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo2.jpg" alt="" />
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo3.jpg" alt="" />
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./cat4.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo4.jpg" alt="" />
 </div>
 
 <div class="w-screen flex flex-col items-center">

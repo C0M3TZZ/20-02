@@ -49,11 +49,11 @@
 	<div
 		class="w-3/4 py-3 flex flex-col gap-2 justify-center items-center border-b border-black bg-gray-100"
 	>
-		<div>ส่งไปยัง</div>
+		<div class="font-Kanit">ส่งไปยัง</div>
 		{#if deliveryData.length == 0}
 			<div
 				transition:fly={{ y: 100, duration: 250, opacity: 0 }}
-				class="flex justify-center items-center w-3/4 h-10 bg-stone-800 text-white"
+				class="flex justify-center items-center w-3/4 h-10 bg-stone-800 text-white font-Kanit"
 			>
 				กรุณาเพิ่มที่อยู่ในการจัดส่ง
 			</div>
@@ -66,7 +66,7 @@
 				transition:fly={{ y: -100, duration: 250, delay: 100 * index, opacity: 0 }}
 			>
 				<div class="flex justify-center items-center">
-					<label class="w-1/6 flex justify-center items-center gap-2">
+					<label class="w-1/6 flex justify-center items-center gap-2 font-Kanit">
 						<input
 							bind:group={deliverySelect}
 							disabled={item.editMode}
@@ -76,7 +76,7 @@
 						/>
 						ที่อยู่
 					</label>
-					<div class="w-3/4 min-h-[5rem]">
+					<div class="w-3/4 min-h-[5rem] font-Kanit">
 						<div class="flex p-2 gap-1">
 							{#if !item.editMode}
 								<div class="w-full h-[4rem] overflow-y-scroll">
@@ -87,7 +87,7 @@
 							{/if}
 						</div>
 					</div>
-					<div class="w-1/4 flex justify-center items-center py-2 border-l border-black">
+					<div class="w-1/4 flex justify-center items-center py-2 border-l border-black font-Kanit">
 						<button
 							on:click={() => {
 								item.editMode = !item.editMode;
@@ -121,7 +121,7 @@
 				</div>
 			</div>
 		{/each}
-		<button
+		<button class="w-24 h-10 rounded-md font-Kanit hover:bg-neutral-300"
 			on:click={() => {
 				deliveryData.push({ address: '', editMode: true });
 				deliveryData = deliveryData;
@@ -133,18 +133,18 @@
 
 	<div class="w-3/4 flex flex-col justify-center items-center bg-gray-100 rounded-b-xl">
 		<div class="w-full h-[1px] border-b border-black" />
-		<h1 class="text-3xl p-8">รายการสั่งซื้อ</h1>
+		<h1 class="text-3xl p-8 font-Kanit">รายการสั่งซื้อ</h1>
 		<div class="w-full h-[1px] border-b border-black" />
 		<!-- Menu -->
 		<div class="w-full m-3 px-3">
 			{#if data.length == 0}
-				<div>
+				<div class="font-Kanit">
 					ไม่มีสินค้าในตะกร้า <span
 						><button
 							on:click={() => {
 								goto('./menu');
 							}}
-							class="p-2 bg-stone-800 text-white rounded-lg">ดู Menu</button
+							class="p-2 bg-stone-800 text-white rounded-lg font-Kanit">ดู Menu</button
 						></span
 					>
 				</div>
@@ -156,8 +156,8 @@
 					class="w-full"
 				>
 					<div class="item w-full flex justify-between items-center px-1">
-						<p class="w-1/3">{item.name}</p>
-						<p class="w-1/3 text-left">x{item.quantity}</p>
+						<p class="w-1/3 font-Kanit">{item.name}</p>
+						<p class="w-1/3 text-left font-Kanit">x{item.quantity}</p>
 						<p class="flex justify-center items-center">
 							{CalTotal(item)}.-
 							<span
@@ -186,26 +186,26 @@
 		<div class="w-full h-[1px] border-b border-black" />
 		<div class="w-full px-3 pt-3 pb-14">
 			<div class="w-full flex justify-between px-1">
-				<p class="w-1/3">ค่าอาหาร</p>
-				<p>{calAllTotal(data)} บาท</p>
+				<p class="w-1/3 font-Kanit">ค่าอาหาร</p>
+				<p class="font-Kanit">{calAllTotal(data)} บาท</p>
 			</div>
 
 			<div class="w-full flex justify-between px-1">
-				<p class="w-1/3">ค่าส่ง</p>
-				<p>{calAllTotal(data) * 0.25} บาท</p>
+				<p class="w-1/3 font-Kanit">ค่าส่ง</p>
+				<p class="font-Kanit">{calAllTotal(data) * 0.25} บาท</p>
 			</div>
 
 			<div class="w-full flex justify-between px-1">
-				<p class="w-1/3">รวมทั้งหมด</p>
-				<p>{calAllTotal(data) * 1.25} บาท</p>
+				<p class="w-1/3 font-Kanit">รวมทั้งหมด</p>
+				<p class="font-Kanit">{calAllTotal(data) * 1.25} บาท</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="w-3/4 flex justify-around items-center">
+	<div class="w-3/4 flex justify-around items-center font-Kanit">
 		<div>
 			<label>
-				<input bind:group={deliveryWhen} type="radio" name="when" value="now" />
+				<input bind:group={deliveryWhen} type="radio" name="when" value="now"/>
 				จัดส่งทันที</label
 			>
 		</div>
@@ -229,7 +229,7 @@
 				localStorage.setItem($userLogin + 'deliType', deliveryWhen);
 				goto('/done');
 			}}
-			class="w-3/4 rounded-xl bg-black text-white py-3 mb-10 transition-all hover:bg-slate-800 active:bg-slate-600"
+			class="w-3/4 rounded-xl bg-black text-white py-3 mb-10 transition-all hover:bg-slate-800 active:bg-slate-600 font-Kanit"
 			>ยืนยันการสั่งซื้อ</button
 		>
 	</div>
