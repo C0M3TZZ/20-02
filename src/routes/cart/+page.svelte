@@ -116,7 +116,7 @@
 							localStorage.setItem($userLogin + 'deliveryData', JSON.stringify(deliveryData));
 						}}
 					>
-						ลบ
+					<span class="material-icons"> delete </span>
 					</button>
 				</div>
 			</div>
@@ -155,18 +155,18 @@
 					out:fly={{ y: 10, delay: 100, opacity: 0 }}
 					class="w-full"
 				>
-					<div class="item w-full flex justify-between px-1">
+					<div class="item w-full flex justify-between items-center px-1">
 						<p class="w-1/3">{item.name}</p>
 						<p class="w-1/3 text-left">x{item.quantity}</p>
-						<p>
-							{CalTotal(item)}
+						<p class="flex justify-center items-center">
+							{CalTotal(item)}.-
 							<span
 								><button
 									on:click={() => {
 										data.splice(index, 1);
 										data = data;
 										localStorage.setItem($userLogin + 'orders', JSON.stringify(data));
-									}}>ลบ</button
+									}}><span class="material-icons"> delete </span></button
 								></span
 							>
 						</p>
@@ -227,7 +227,7 @@
 		<button
 			on:click={() => {
 				localStorage.setItem($userLogin + 'deliType', deliveryWhen);
-				goto('/done')
+				goto('/done');
 			}}
 			class="w-3/4 rounded-xl bg-black text-white py-3 mb-10 transition-all hover:bg-slate-800 active:bg-slate-600"
 			>ยืนยันการสั่งซื้อ</button

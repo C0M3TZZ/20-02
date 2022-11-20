@@ -64,7 +64,9 @@
 				goto('/cart');
 			}}
 		>
-			Cart
+		<span class="material-icons">
+			shopping_cart
+			</span>
 		</button>
 	</div>
 	<div class="w-full h-[1px] border" />
