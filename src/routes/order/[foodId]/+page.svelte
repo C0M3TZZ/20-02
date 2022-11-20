@@ -63,8 +63,8 @@
 			<img class="w-full" src="{food.photo}" alt="" />
 		</div>
 		<div class="p-10 border-2 border-b-[#d8d8d8]">
-			<h1 class="text-4xl pb-5 font-Kanit">{food.name}</h1>
-			<p class="text-1xl font-Kanit">{food.desc}</p>
+			<h1 class="text-4xl font-semibold pb-5 font-Kanit">{food.name}</h1>
+			<p class="text-1xl font-Kanit text-neutral-500">{food.desc}</p>
 		</div>
 		<div class="p-10 border-2 border-b-[#d8d8d8]">
 			<h2 class="text-2xl pb-5 font-Kanit">เพิ่มเติม</h2>
@@ -85,7 +85,7 @@
 				<input
 					type="textbox"
 					placeholder=" เช่น ไม่เอาผัก"
-					class="border-2 border-[#d8d8d8] w-full"
+					class="border-2 border-[#d8d8d8] w-full h-10"
 				/>
 			</label>
 			<div class="w-full flex justify-center items-center p-3">
