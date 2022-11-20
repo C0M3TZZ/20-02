@@ -42,8 +42,8 @@
 	>
 		<img class="object-cover w-full h-{item.imageheight}" src={menu[item.id - 1].photo} alt="" />
 		<div class="p-2 mb-4">
-			<h1 class="text-{item.textsize} text-stone-700 font-bold">{menu[item.id - 1].name}</h1>
-			<p class="text-{item.textsize} text-rose-600">
+			<h1 class="text-{item.textsize} font-Kanit text-stone-700 font-bold">{menu[item.id - 1].name}</h1>
+			<p class="text-{item.textsize} font-Kanit text-rose-600">
 				{item.price != null ? item.price : menu[item.id - 1].price}.-
 			</p>
 		</div>

@@ -5,6 +5,7 @@ const config = {
 		extend: {
 			fontFamily: {
 				Taviraj: ['"Taviraj"', 'serif'],
+				Kanit: ['"Kanit"', 'sans-serif']
 			},
 		}
 	},
