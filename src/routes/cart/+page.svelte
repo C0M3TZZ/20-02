@@ -139,7 +139,7 @@
 		<div class="w-full m-3 px-3">
 			{#if data.length == 0}
 				<div>
-					ไม่มีสินค้่าในตะกร้า <span
+					ไม่มีสินค้าในตะกร้า <span
 						><button
 							on:click={() => {
 								goto('./menu');

@@ -63,11 +63,11 @@
 			<img class="w-full" src="{food.photo}" alt="" />
 		</div>
 		<div class="p-10 border-2 border-b-[#d8d8d8]">
-			<h1 class="text-4xl pb-5">{food.name}</h1>
-			<p class="text-1xl ">{food.desc}</p>
+			<h1 class="text-4xl pb-5 font-Kanit">{food.name}</h1>
+			<p class="text-1xl font-Kanit">{food.desc}</p>
 		</div>
 		<div class="p-10 border-2 border-b-[#d8d8d8]">
-			<h2 class="text-2xl pb-5">เพิ่มเติม</h2>
+			<h2 class="text-2xl pb-5 font-Kanit">เพิ่มเติม</h2>
 			{#if food.options.length == 0}
 				<div class="" />
 				ไม่มีตัวเลือกเพิ่มเติม
@@ -80,7 +80,7 @@
 			{/each}
 		</div>
 		<div class="p-10 border-2 border-b-[#d8d8d8]">
-			<h2 class="text-2xl pb-7">รายละเอียดเพิ่มเติม</h2>
+			<h2 class="text-2xl pb-7 font-Kanit">รายละเอียดเพิ่มเติม</h2>
 			<label>
 				<input
 					type="textbox"
