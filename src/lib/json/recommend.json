@@ -1,53 +1,41 @@
 [
 	{
-		"name": "แมวต้ม",
-		"price": "20",
-		"image": "./cat1.jpg",
+		"id": "1",
 		"custom": "row-start-1 col-start-1 row-span-2 col-span-2",
 		"height": "64",
 		"textsize": "xl",
 		"imageheight": "3/4"
 	},
 	{
-		"name": "แมวต้ม",
-		"price": "20",
-		"image": "./cat1.jpg",
+		"id": "2",
 		"custom": "row-start-1 col-start-3 row-span-2 col-span-2",
 		"height": "64",
 		"textsize": "xl",
 		"imageheight": "3/4"
 	},
 	{
-		"name": "แมวต้ม",
-		"price": "20",
-		"image": "./cat1.jpg",
+		"id": "3",
 		"custom": "row-start-3 col-start-1",
 		"height": "32",
 		"textsize": "xs",
 		"imageheight": "2/3"
 	},
 	{
-		"name": "แมวต้ม",
-		"price": "20",
-		"image": "./cat1.jpg",
+		"id": "4",
 		"custom": "row-start-3 col-start-2",
 		"height": "32",
 		"textsize": "xs",
 		"imageheight": "2/3"
 	},
 	{
-		"name": "แมวต้ม",
-		"price": "20",
-		"image": "./cat1.jpg",
+		"id": "5",
 		"custom": "row-start-3 col-start-3",
 		"height": "32",
 		"textsize": "xs",
 		"imageheight": "2/3"
 	},
 	{
-		"name": "แมวต้ม",
-		"price": "20",
-		"image": "./cat1.jpg",
+		"id": "6",
 		"custom": "row-start-3 col-start-4",
 		"height": "32",
 		"textsize": "xs",

@@ -4,9 +4,9 @@
 	import recommendData from '$lib/json/recommend.json';
 	import { onMount } from 'svelte';
 
-	onMount(async () => {
-		test = flashSaleData;
-	})
+	// onMount(async () => {
+	// 	test = flashSaleData;
+	// })
 
 	let ele;
 	let eleData = {
@@ -80,10 +80,10 @@
 		/>
 	</button>
 	<div class="w-full h- z-50 absolute top-[90%] inline-flex gap-5 place-content-center">
-		<div class="w-4 z-20 h-4 bg-{count == 0 ? 'white' : 'gray-500'} opacity-50 rounded-full" />
-		<div class="w-4 z-20 h-4 bg-{count == 1 ? 'white' : 'gray-500'} opacity-50 rounded-full" />
-		<div class="w-4 z-20 h-4 bg-{count == 2 ? 'white' : 'gray-500'} opacity-50 rounded-full" />
-		<div class="w-4 z-20 h-4 bg-{count == 3 ? 'white' : 'gray-500'} opacity-50 rounded-full" />
+		<div class="w-4 z-20 h-4 {count == 0 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
+		<div class="w-4 z-20 h-4 {count == 1 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
+		<div class="w-4 z-20 h-4 {count == 2 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
+		<div class="w-4 z-20 h-4 {count == 3 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
 	</div>
 </div>
 
@@ -121,7 +121,7 @@
 	</div>
 
 	<div class="max-w-xl h-fit p-2 grid grid-cols-4 grid-rows-3 gap-2">
-		<Block data={flashSaleData}></Block>
+		<Block sale=true data={flashSaleData}></Block>
 	</div>
 
 	<div class="my-12 flex flex-col items-center">
@@ -131,7 +131,7 @@
 		<hr class="w-20 border-4 border-stone-800" />
 	</div>
 
-	<div class="max-w-xl h-fit p-2 grid grid-cols-4 grid-rows-3 gap-2">
+	<div class="max-w-xl h-fit p-2 grid grid-cols-4 grid-rows-3 gap-2 mb-10">
 		<Block data={recommendData}></Block>
 	</div>
 </div>

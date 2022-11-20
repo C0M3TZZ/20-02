@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import menu from '$lib/json/menu.json';
+	import flashSale from '$lib/json/flashSale.json';
 	import { goto } from '$app/navigation';
 	import { userLogin, addNotification } from '$lib/store.js';
 	import { onMount } from 'svelte';
@@ -9,7 +10,7 @@
 		name: '',
 		price: 0,
 		desc: '',
-		photo: './ไข่ดาว.jpg',
+		photo: '/ไข่ดาว.jpg',
 		options: []
 	};
 
@@ -19,7 +20,7 @@
 			return;
 		} else {
 			food = menu[foodId - 1];
-			price = food.price;
+			price = flashSale[foodId - 1].price;
 			totalprice = price;
 		}
 
@@ -56,7 +57,7 @@
 			>
 				<img
 					class="object-cover select-none z-20 bg-black bg-opacity-50 rounded-full p-2"
-					src="../prev.png"
+					src="/prev.png"
 					alt=""
 				/>
 			</button>
@@ -120,7 +121,7 @@
 						on:click={() => {
 							if ($userLogin) {
 								let order = {
-									name: food.name,
+									name: 'Flash Sale - ' + food.name,
 									quantity: count,
 									option: options,
 									price: totalprice
