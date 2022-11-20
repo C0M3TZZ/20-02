@@ -96,10 +96,10 @@
 	class="w-full flex flex-col justify-center items-center p-3 bg-stone-800 text-white"
 >
 	<h1 class="text-3xl font-Taviraj">Member</h1>
-	<div class="w-1/12 h-[1px] border-white border-b-2 mb-2 font-Kanit" />
-	<p>เขมฐิติ หวังทรัพย์ทวี 64070011</p>
-	<p>พลวิชญ์ ดวงสุข 64070072</p>
-	<p>พีรวิชญ์ กริชฉกาจ 64070076</p>
-	<p>ภาพตะวัน ปัญญาพานิชกุล 64070085</p>
-	<p>พรนภัส สิงห์คำ 64070194</p>
+	<div class="w-1/12 h-[1px] border-white border-b-2 mb-2" />
+	<p class="font-Kanit">เขมฐิติ หวังทรัพย์ทวี 64070011</p>
+	<p class="font-Kanit">พลวิชญ์ ดวงสุข 64070072</p>
+	<p class="font-Kanit">พีรวิชญ์ กริชฉกาจ 64070076</p>
+	<p class="font-Kanit">ภาพตะวัน ปัญญาพานิชกุล 64070085</p>
+	<p class="font-Kanit">พรนภัส สิงห์คำ 64070194</p>
 </div>
