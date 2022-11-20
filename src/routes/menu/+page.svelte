@@ -24,16 +24,16 @@
 
 <div class="w-full flex justify-center items-center pt-5">
 	<div class="w-3/4 flex justify-between items-center">
-		<button on:click={() => {changeMenu('Main dish')}} class="hover:bg-gray-700 rounded-lg text-xl {categories == 'Main dish' ? 'bg-gray-700 text-white' : ''} transition-all hover:text-white p-2"
+		<button on:click={() => {changeMenu('Main dish')}} class="hover:bg-stone-800 rounded-lg text-xl {categories == 'Main dish' ? 'bg-stone-800 text-white' : ''} transition-all hover:text-white p-2"
 			>อาหารจานเดียว</button
 		>
-		<button on:click={() => {changeMenu('Side dish')}} class="hover:bg-gray-700 rounded-lg text-xl {categories == 'Side dish' ? 'bg-gray-700 text-white' : ''} transition-all hover:text-white p-2"
+		<button on:click={() => {changeMenu('Side dish')}} class="hover:bg-stone-800 rounded-lg text-xl {categories == 'Side dish' ? 'bg-stone-800 text-white' : ''} transition-all hover:text-white p-2"
 			>กับข้าว</button
 		>
-		<button on:click={() => {changeMenu('appetizer')}} class="hover:bg-gray-700 rounded-lg text-xl {categories == 'appetizer' ? 'bg-gray-700 text-white' : ''} transition-all hover:text-white p-2"
+		<button on:click={() => {changeMenu('appetizer')}} class="hover:bg-stone-800 rounded-lg text-xl {categories == 'appetizer' ? 'bg-stone-800 text-white' : ''} transition-all hover:text-white p-2"
 			>อาหารทานเล่น</button
 		>
-		<button on:click={() => {changeMenu('dessert')}} class="hover:bg-gray-700 rounded-lg text-xl {categories == 'dessert' ? 'bg-gray-700 text-white' : ''} transition-all hover:text-white p-2"
+		<button on:click={() => {changeMenu('dessert')}} class="hover:bg-stone-800 rounded-lg text-xl {categories == 'dessert' ? 'bg-stone-800 text-white' : ''} transition-all hover:text-white p-2"
 			>เครื่องดื่ม และ ของหวาน</button
 		>
 	</div>

@@ -6,7 +6,7 @@
 	export let link = '#';
 </script>
 
-<div class="max-w-sm font-Taviraj bg-white shadow-sm border border-gray-200 rounded-lg ">
+<div class="max-w-sm font-Kanit bg-white shadow-sm border border-gray-200 rounded-lg ">
 	<a href={link}>
 		<img
 			class="object-cover rounded-t-lg h-72 w-full hover:opacity-60 transition duration-500"

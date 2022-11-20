@@ -102,7 +102,7 @@
 <div class="w-screen flex flex-col items-center">
 	<div class="my-12 flex flex-col items-center">
 		<div class="inline-flex gap-4 mb-6">
-			<p class="text-2xl mb-4">FLASH SALE!</p>
+			<p class="text-2xl mb-4 font-Taviraj">FLASH SALE!</p>
 			<div class="w-40 h-9 inline-flex gap-1">
 				<div class="w-12 h-9 bg-stone-800 rounded-md text-center">
 					<p class="text-white text-2xl font-bold">{hr}</p>
@@ -126,7 +126,7 @@
 
 	<div class="my-12 flex flex-col items-center">
 		<div class="inline-flex mb-6">
-			<p class="text-2xl mb-4">WE RECOMMEND</p>
+			<p class="text-2xl mb-4 font-Taviraj">WE RECOMMEND</p>
 		</div>
 		<hr class="w-20 border-4 border-stone-800" />
 	</div>

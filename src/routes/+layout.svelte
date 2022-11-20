@@ -93,10 +93,10 @@
 </div>
 <slot />
 <div
-	class="w-full flex flex-col justify-center items-center font-Taviraj p-3 bg-stone-800 text-white"
+	class="w-full flex flex-col justify-center items-center p-3 bg-stone-800 text-white"
 >
-	<h1 class="text-3xl">Member</h1>
-	<div class="w-1/12 h-[1px] border-white border-b-2 mb-2" />
+	<h1 class="text-3xl font-Taviraj">Member</h1>
+	<div class="w-1/12 h-[1px] border-white border-b-2 mb-2 font-Kanit" />
 	<p>เขมฐิติ หวังทรัพย์ทวี 64070011</p>
 	<p>พลวิชญ์ ดวงสุข 64070072</p>
 	<p>พีรวิชญ์ กริชฉกาจ 64070076</p>
