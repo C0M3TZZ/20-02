@@ -17,7 +17,7 @@
 	<div class="flex justify-center w-3/4 flex-col items-center">
 		<h1 class="text-3xl p-10">
 			{deliType == 'now'
-				? 'เรากำลังจะจัดสินอาหารให้คุณ!'
+				? 'เรากำลังจัดเตรียมอาหารให้คุณ!'
 				: 'เราจะจัดส่งอาหารให้คุณตามเวลาที่คุณกำหนด!'}
 		</h1>
 		<button

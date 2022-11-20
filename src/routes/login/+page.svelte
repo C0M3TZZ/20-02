@@ -40,7 +40,7 @@
 		<div class="m-auto py-12 px-6 sm:p-20 xl:w-10/12">
 			<div class="space-y-4">
 				<img src="bigCat.jpeg" class="w-40" alt="logo-top" />
-				<p class="text-5xl text-black">Sign in</p>
+				<p class="text-5xl text-black">Sign In</p>
 			</div>
 			<div class="w-20">
 				<div class="mt-4 border-t-4  border-black">
@@ -88,7 +88,7 @@
 							}
 						}}
 					>
-						<span class="font-semibold text-white text-lg">Login</span>
+						<span class="font-semibold text-white text-lg">Sign In</span>
 					</button>
 
 					<div class="w-full flex mb-4 justify-center">

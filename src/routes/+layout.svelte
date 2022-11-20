@@ -55,7 +55,7 @@
 					goto('/login');
 				}}
 			>
-				Login
+			Sign In
 			</button>
 		{/if}
 		<button on:click={() => {goto('/')}} class="text-5xl">20:02</button>
