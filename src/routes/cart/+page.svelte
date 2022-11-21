@@ -33,7 +33,7 @@
 		item.option.forEach((opt) => {
 			total += opt.price;
 		});
-		return total * item.quantity;
+		return total;
 	};
 
 	let calAllTotal = (data) => {
