@@ -3,7 +3,7 @@
 	import menu from '$lib/json/menu';
 	import { onMount } from 'svelte';
 	import { fly, fade } from 'svelte/transition';
-	let categories = 'Main dish';
+	let categories = 'Promo';
 	let selected;
 	let ele;
 
@@ -24,6 +24,9 @@
 
 <div class="w-full flex justify-center items-center pt-5">
 	<div class="w-3/4 flex justify-between items-center">
+		<button on:click={() => {changeMenu('Promo')}} class="font-Kanit hover:bg-stone-800 rounded-lg text-xl {categories == 'Promo' ? 'bg-stone-800 text-white' : ''} transition-all hover:text-white p-2"
+			>โปรโมชั่น</button
+		>
 		<button on:click={() => {changeMenu('Main dish')}} class="font-Kanit hover:bg-stone-800 rounded-lg text-xl {categories == 'Main dish' ? 'bg-stone-800 text-white' : ''} transition-all hover:text-white p-2"
 			>อาหารจานเดียว</button
 		>
