@@ -1003,5 +1003,43 @@
 		"type": "dessert",
 		"desc": "ซอฟต์คุกกี้เนื้อนุ้ม ใส้ช็อกโกแลตเน้นๆ",
 		"options":[]
+	},
+	{
+		"id": "70",
+		"name": "Set หมูกรอบโซดา",
+		"price": 80,
+		"photo": "/PromoMenu1.jpg",
+		"type": "Promo",
+		"desc": "ข้าวกะเพราหมูกรอบ 1, น้ำลิ้นจี่โซดา 1",
+		"options":[]
+	},
+	{
+		"id": "71",
+		"name": "Set ของทานเล่น",
+		"price": 119,
+		"photo": "/PromoMenu2.jpg",
+		"type": "Promo",
+		"desc": "ชีสบอล 1, ไก่คาราอะเกะ 1, เฟรนช์ฟรายส์ 1, โค้ก 1",
+		"options":[]
+	}
+	,
+	{
+		"id": "72",
+		"name": "Set คนรักนักเก็ต",
+		"price": 105,
+		"photo": "/PromoMenu3.jpg",
+		"type": "Promo",
+		"desc": "นักเก็ต 4 ชุด(20 ชิ้น)",
+		"options":[]
+	}
+	,
+	{
+		"id": "73",
+		"name": "Set อาหารเช้า",
+		"price": 59,
+		"photo": "/PromoMenu4.jpg",
+		"type": "Promo",
+		"desc": "แพนเค้ก 1, กาแฟโบราณร้อน 1",
+		"options":[]
 	}
 ]
