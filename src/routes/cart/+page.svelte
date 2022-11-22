@@ -30,9 +30,6 @@
 	let CalTotal = (item) => {
 		let total = 0;
 		total += item.price;
-		item.option.forEach((opt) => {
-			total += opt.price;
-		});
 		return total;
 	};
 
