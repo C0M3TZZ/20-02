@@ -3,7 +3,7 @@
 	import { fade, fly } from 'svelte/transition';
 	import { goto, afterNavigate } from '$app/navigation';
 
-	import { userLogin } from '$lib/store.js';
+	import { userLogin, addNotification } from '$lib/store.js';
 
 	let deliveryWhen = 'now';
 
@@ -46,7 +46,7 @@
 	<title>Cart</title>
 </svelte:head>
 
-<div class="w-full flex justify-center flex-col items-center font-Taviraj gap-10">
+<div class="w-full flex justify-center flex-col items-center font-Kanit gap-10">
 	<div
 		class="w-3/4 py-3 flex flex-col gap-2 justify-center items-center border-b border-black bg-gray-100"
 	>
@@ -122,7 +122,7 @@
 				</div>
 			</div>
 		{/each}
-		<button class="w-24 h-10 rounded-md font-Kanit hover:bg-neutral-300"
+		<button class="w-24 h-10 rounded-md font-Kanit transition-all hover:bg-neutral-300"
 			on:click={() => {
 				deliveryData.push({ address: '', editMode: true });
 				deliveryData = deliveryData;
@@ -226,8 +226,18 @@
 	<div class="w-full flex justify-center items-center">
 		<button
 			on:click={() => {
-				localStorage.setItem($userLogin + 'deliType', deliveryWhen);
-				goto('/done');
+				if (deliverySelect == -1) {
+					addNotification('กรุณาเลือกที่อยู่จัดส่ง', 'danger', 2000);
+					return;
+				}
+				if (localStorage.getItem($userLogin + 'orders') == null) {
+					addNotification('ไม่มีสินค้าในตะกร้า', 'danger', 2000);
+					return;
+				} else {
+					localStorage.setItem($userLogin + 'deliType', deliveryWhen);
+					goto('/done');
+				}
+					
 			}}
 			class="w-3/4 rounded-xl bg-stone-800 text-white py-3 mb-10 transition-all hover:bg-stone-600 active:bg-stone-600 font-Kanit"
 			>ยืนยันการสั่งซื้อ</button
