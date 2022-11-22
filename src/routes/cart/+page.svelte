@@ -143,7 +143,7 @@
 					ไม่มีสินค้าในตะกร้า <span
 						><button
 							on:click={() => {
-								goto('./menu');
+								goto('/menu');
 							}}
 							class="p-2 bg-stone-800 text-white rounded-lg font-Kanit">ดู Menu</button
 						></span

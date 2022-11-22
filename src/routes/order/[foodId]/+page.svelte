@@ -9,7 +9,7 @@
 		name: '',
 		price: 0,
 		desc: '',
-		photo: './ไข่ดาว.jpg',
+		photo: '/ไข่ดาว.jpg',
 		options: []
 	};
 
@@ -60,7 +60,7 @@
 			>
 				<img
 					class="object-cover select-none z-20 bg-black bg-opacity-50 rounded-full p-2"
-					src="../prev.png"
+					src="/prev.png"
 					alt=""
 				/>
 			</button>

@@ -52,7 +52,7 @@
 	{#if selected != null || undefined}
 		{#each selected as item, index}
 			<div in:fly={{ y: 100, delay: 50 * index , opacity: 0}}>
-				<Card name={item.name} price={item.price} img={item.photo} link="./order/{item.id}"/>
+				<Card name={item.name} price={item.price} img={item.photo} link="/order/{item.id}"/>
 			</div>
 		{/each}
 	{/if}

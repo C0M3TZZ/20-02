@@ -68,7 +68,7 @@
 	>
 		<img
 			class="object-cover select-none z-20 bg-white bg-opacity-50 rounded-full p-2"
-			src="./prev.png"
+			src="/prev.png"
 			alt=""
 		/>
 	</button>
@@ -82,7 +82,7 @@
 	>
 		<img
 			class="object-cover select-none z-20 bg-white bg-opacity-50 rounded-full p-2"
-			src="./next.png"
+			src="/next.png"
 			alt=""
 		/>
 	</button>
@@ -100,10 +100,10 @@
 	bind:offsetWidth={eleData.width}
 	class="w-full flex flex-nowrap overflow-scroll snap-x snap-mandatory scroll-smooth no-scrollbar"
 >
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo1.jpg" alt="" />
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo2.jpg" alt="" />
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo3.jpg" alt="" />
-	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo4.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="/Promo1.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="/Promo2.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="/Promo3.jpg" alt="" />
+	<img class="snap-center object-cover w-full flex-shrink-0 " src="/Promo4.jpg" alt="" />
 </div>
 
 <div class="w-full flex flex-col items-center">
