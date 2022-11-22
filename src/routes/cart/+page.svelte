@@ -178,7 +178,6 @@
 							class="pl-5 pr-1 w-full flex justify-between"
 						>
 							<p class="w-1/3">{option.name}</p>
-							<p>{option.price}</p>
 						</div>
 					{/each}
 				</div>
