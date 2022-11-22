@@ -42,7 +42,7 @@
 	{
 		"id": "6",
 		"price": 20,
-		"custom": "row-start-3 col-start-1",
+		"custom": "row-start-3 col-start-3",
 		"height": "32",
 		"textsize": "xs",
 		"imageheight": "2/3"
