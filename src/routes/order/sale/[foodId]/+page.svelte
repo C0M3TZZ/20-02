@@ -46,6 +46,10 @@
 	$: totalprice = (price + options.reduce((acc, cur) => acc + cur.price, 0)) * count;
 </script>
 
+<svelte:head>
+	<title>{food.name}</title>
+</svelte:head>
+
 <div class="flex justify-center mb-10 font-Kanit">
 	<div class="w-3/4">
 		<div class="relative">

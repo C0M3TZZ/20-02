@@ -17,6 +17,8 @@
 	});
 </script>
 
+<svelte:head>Sign Up</svelte:head>
+
 <!--Video-->
 <div class="2xl:container h-screen m-auto">
 	<div hidden class="fixed inset-0 w-7/12 lg:block">

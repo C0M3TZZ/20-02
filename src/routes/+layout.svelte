@@ -37,7 +37,7 @@
 	{/each}
 </div>
 
-<div class="font-Taviraj text-xl">
+<div class="font-Taviraj text-xl w-full">
 	<div class="flex justify-between items-center px-5 py-2">
 		{#if user != null}
 			<button
@@ -91,7 +91,7 @@
 	</div>
 	<div class="w-full h-[1px] border" />
 </div>
-<slot />
+	<slot />
 <div
 	class="w-full flex flex-col justify-center items-center p-3 bg-stone-800 text-white"
 >

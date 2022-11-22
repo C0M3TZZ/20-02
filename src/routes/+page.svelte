@@ -13,6 +13,7 @@
 		width: 0,
 		height: 0
 	};
+
 	let count = 0;
 
 	var des = new Date().setHours(23, 59, 59, 0);
@@ -48,9 +49,14 @@
 	}, 1000);
 </script>
 
-<div class="w-full h-[512px] z-10 absolute">
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
+
+<div class="w-full z-10 absolute" style="height: {eleData.height}px;">
 	<button
-		class="w-[50px] h-[50px] rounded-full absolute top-[231px] left-10"
+		class="w-[50px] h-[50px] rounded-full absolute left-10"
+		style="top: {(eleData.height - 25) / 2}px;"
 		on:click={() => {
 			if (count - 1 < 0) {
 				count = 3;
@@ -67,7 +73,8 @@
 		/>
 	</button>
 	<button
-		class="w-[50px] h-[50px] rounded-full absolute top-[231px] right-10"
+		class="w-[50px] h-[50px] rounded-full absolute right-10"
+		style="top: {(eleData.height - 25) / 2}px;"
 		on:click={() => {
 			count = (count + 1) % 4;
 			ele.scrollLeft = eleData.width * count;
@@ -79,7 +86,7 @@
 			alt=""
 		/>
 	</button>
-	<div class="w-full h- z-50 absolute top-[90%] inline-flex gap-5 place-content-center">
+	<div class="w-full z-50 absolute top-[90%] inline-flex gap-5 place-content-center">
 		<div class="w-4 z-20 h-4 {count == 0 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
 		<div class="w-4 z-20 h-4 {count == 1 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
 		<div class="w-4 z-20 h-4 {count == 2 ? 'bg-white' : 'bg-gray-500'} opacity-50 rounded-full" />
@@ -89,9 +96,9 @@
 
 <div
 	bind:this={ele}
-	bind:clientWidth={eleData.width}
-	bind:clientHeight={eleData.height}
-	class="w-full h-[512px] flex flex-nowrap overflow-scroll snap-x snap-mandatory scroll-smooth no-scrollbar"
+	bind:offsetHeight={eleData.height}
+	bind:offsetWidth={eleData.width}
+	class="w-full flex flex-nowrap overflow-scroll snap-x snap-mandatory scroll-smooth no-scrollbar"
 >
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo1.jpg" alt="" />
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo2.jpg" alt="" />

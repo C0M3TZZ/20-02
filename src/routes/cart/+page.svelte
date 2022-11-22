@@ -45,6 +45,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Cart</title>
+</svelte:head>
+
 <div class="w-full flex justify-center flex-col items-center font-Taviraj gap-10">
 	<div
 		class="w-3/4 py-3 flex flex-col gap-2 justify-center items-center border-b border-black bg-gray-100"
