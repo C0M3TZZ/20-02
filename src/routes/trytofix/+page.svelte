@@ -126,7 +126,7 @@
 	</div>
 </div>
 
-<div class="w-screen h-screen flex flex-col items-center">
+<div class="w-full h-screen flex flex-col items-center">
 	<div class="my-12 flex flex-col items-center">
 		<div class="inline-flex gap-4 mb-6">
 			<p class="text-2xl mb-4">FLASH SALE!</p>

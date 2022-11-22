@@ -99,7 +99,7 @@
 	<img class="snap-center object-cover w-full flex-shrink-0 " src="./Promo4.jpg" alt="" />
 </div>
 
-<div class="w-screen flex flex-col items-center">
+<div class="w-full flex flex-col items-center">
 	<div class="my-12 flex flex-col items-center">
 		<div class="inline-flex gap-4 mb-6">
 			<p class="text-2xl mb-4 font-Taviraj">FLASH SALE!</p>
