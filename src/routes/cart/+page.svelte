@@ -33,7 +33,7 @@
 		item.option.forEach((opt) => {
 			total += opt.price;
 		});
-		return total * item.quantity;
+		return total;
 	};
 
 	let calAllTotal = (data) => {
@@ -44,6 +44,10 @@
 		return total;
 	};
 </script>
+
+<svelte:head>
+	<title>Cart</title>
+</svelte:head>
 
 <div class="w-full flex justify-center flex-col items-center font-Taviraj gap-10">
 	<div

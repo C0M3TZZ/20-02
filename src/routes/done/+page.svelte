@@ -13,6 +13,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Check Out</title>
+</svelte:head>
+
 <div class="h-screen w-full flex justify-center items-center">
 	<div class="flex justify-center w-3/4 flex-col items-center">
 		<img src={deliType == 'now' ? '/cooking.png' : '/clock.png'} alt="" />
