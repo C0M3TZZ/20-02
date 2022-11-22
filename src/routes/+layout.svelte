@@ -41,6 +41,7 @@
 	<div class="flex justify-between items-center px-5 py-2">
 		{#if user != null}
 			<button
+			class="w-1/4 flex justify-start"
 				on:click={() => {
 					userLogin.set(null);
 					addNotification('ออกจากระบบสำเร็จ', 'success', 5000);
@@ -51,6 +52,7 @@
 			</button>
 		{:else}
 			<button
+			class="w-1/4 flex justify-start"
 				on:click={() => {
 					goto('/login');
 				}}
@@ -60,6 +62,7 @@
 		{/if}
 		<button on:click={() => {goto('/')}} class="text-5xl">20:02</button>
 		<button
+		class="w-1/4 flex justify-end"
 			on:click={() => {
 				goto('/cart');
 			}}
