@@ -7,6 +7,10 @@
 
 	onMount(() => {
 		deliType = localStorage.getItem($userLogin + 'deliType');
+		if (localStorage.getItem($userLogin + 'deliType') != null) {
+			localStorage.removeItem($userLogin + 'orders');
+			localStorage.removeItem($userLogin + 'deliType');
+		}
 		if (deliType == null) {
 			goto('/menu');
 		}
