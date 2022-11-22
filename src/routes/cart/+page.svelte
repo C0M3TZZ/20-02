@@ -230,7 +230,7 @@
 					addNotification('กรุณาเลือกที่อยู่จัดส่ง', 'danger', 2000);
 					return;
 				}
-				if (localStorage.getItem($userLogin + 'orders') == null) {
+				if (localStorage.getItem($userLogin + 'orders') == null || JSON.parse(localStorage.getItem($userLogin + 'orders')).length == 0) {
 					addNotification('ไม่มีสินค้าในตะกร้า', 'danger', 2000);
 					return;
 				} else {
